@@ -1,0 +1,20 @@
+
+  create or replace   view SLEEKMART_OMS.L2_PROCESSING.customers_stg
+  
+   as (
+    SELECT
+    CustomerID,
+    FIrstName,
+    lastname,
+    Email,
+    Phone,
+    Address,
+    City,
+    State,
+    ZipCode,
+    Updated_at,
+    CONCAT(FirstName, ' ', LastName) AS CustomerName,
+    current_timestamp() as last_update
+FROM SLEEKMART_OMS.l1_landing.CUSTOMERS
+  );
+

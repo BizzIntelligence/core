@@ -1,0 +1,1058 @@
+[0m18:44:01.105323 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7C00CD010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7C2AACA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7C2AAC910>]}
+
+
+============================== 18:44:01.108154 | 86488d3e-19f3-40bd-8a72-944c997bd563 ==============================
+[0m18:44:01.108154 [info ] [MainThread]: Running with dbt=1.8.0
+[0m18:44:01.108948 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'log_path': 'C:\\Users\\Rajesh\\Desktop\\My_dbt_project\\sleekdatamart\\sleekdatamart\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug --connection', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:44:01.118959 [info ] [MainThread]: dbt version: 1.8.0
+[0m18:44:01.119440 [info ] [MainThread]: python version: 3.13.1
+[0m18:44:01.120011 [info ] [MainThread]: python path: C:\Users\Rajesh\AppData\Local\Programs\Python\Python313\python.exe
+[0m18:44:01.120842 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m18:44:01.374418 [info ] [MainThread]: Using profiles dir at C:\Users\Rajesh\.dbt
+[0m18:44:01.375002 [info ] [MainThread]: Using profiles.yml file at C:\Users\Rajesh\.dbt\profiles.yml
+[0m18:44:01.375468 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Rajesh\Desktop\My_dbt_project\sleekdatamart\sleekdatamart\dbt_project.yml
+[0m18:44:01.376193 [info ] [MainThread]: adapter type: snowflake
+[0m18:44:01.376655 [info ] [MainThread]: adapter version: 1.8.4
+[0m18:44:01.440560 [info ] [MainThread]: Skipping steps before connection verification
+[0m18:44:01.441434 [info ] [MainThread]: Connection:
+[0m18:44:01.442382 [info ] [MainThread]:   account: teeqrux-ww21611
+[0m18:44:01.443081 [info ] [MainThread]:   user: BITECHLAKE
+[0m18:44:01.443872 [info ] [MainThread]:   database: SLEEKMART_OMS
+[0m18:44:01.444683 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m18:44:01.445733 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m18:44:01.446599 [info ] [MainThread]:   schema: L1_LANDING
+[0m18:44:01.447284 [info ] [MainThread]:   authenticator: None
+[0m18:44:01.448126 [info ] [MainThread]:   oauth_client_id: None
+[0m18:44:01.448690 [info ] [MainThread]:   query_tag: None
+[0m18:44:01.449293 [info ] [MainThread]:   client_session_keep_alive: False
+[0m18:44:01.449928 [info ] [MainThread]:   host: None
+[0m18:44:01.450544 [info ] [MainThread]:   port: None
+[0m18:44:01.451682 [info ] [MainThread]:   proxy_host: None
+[0m18:44:01.452657 [info ] [MainThread]:   proxy_port: None
+[0m18:44:01.453874 [info ] [MainThread]:   protocol: None
+[0m18:44:01.454472 [info ] [MainThread]:   connect_retries: 1
+[0m18:44:01.455244 [info ] [MainThread]:   connect_timeout: None
+[0m18:44:01.455900 [info ] [MainThread]:   retry_on_database_errors: False
+[0m18:44:01.456574 [info ] [MainThread]:   retry_all: False
+[0m18:44:01.460684 [info ] [MainThread]:   insecure_mode: False
+[0m18:44:01.462613 [info ] [MainThread]:   reuse_connections: None
+[0m18:44:01.464493 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m18:44:01.620114 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m18:44:01.620625 [debug] [MainThread]: Using snowflake connection "debug"
+[0m18:44:01.620852 [debug] [MainThread]: On debug: select 1 as id
+[0m18:44:01.621033 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:44:02.490722 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.869 seconds
+[0m18:44:02.492755 [debug] [MainThread]: On debug: Close
+[0m18:44:02.581339 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:44:02.582210 [info ] [MainThread]: [32mAll checks passed![0m
+[0m18:44:02.583123 [debug] [MainThread]: Command `dbt debug` succeeded at 18:44:02.582996 after 1.62 seconds
+[0m18:44:02.583453 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:44:02.583876 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7C4B882B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7C4EB05F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7C3A32CF0>]}
+[0m18:44:02.584366 [debug] [MainThread]: Flushing usage events
+[0m18:55:16.421864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C30D04D2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C30CCA3750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C30FA34A50>]}
+
+
+============================== 18:55:16.425685 | 9983b2ef-e820-41c9-9152-3164beda6332 ==============================
+[0m18:55:16.425685 [info ] [MainThread]: Running with dbt=1.8.0
+[0m18:55:16.426136 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'c:\\Users\\Rajesh\\Desktop\\My_dbt_project\\sleekdatamart\\sleekdatamart\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt ', 'send_anonymous_usage_stats': 'True'}
+[0m18:55:16.505693 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9983b2ef-e820-41c9-9152-3164beda6332', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C30E93B950>]}
+[0m18:55:16.529680 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m18:55:16.530949 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m18:55:16.532139 [debug] [MainThread]: Command `cli deps` succeeded at 18:55:16.532008 after 0.22 seconds
+[0m18:55:16.532411 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C30FA17CE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C30FD6A470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C30F9DBE50>]}
+[0m18:55:16.532646 [debug] [MainThread]: Flushing usage events
+[0m21:24:38.866985 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A6DDDD010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A707B0A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A707B0910>]}
+
+
+============================== 21:24:38.873690 | 4d56002c-64fc-4ab6-a44e-5ebb50caafa1 ==============================
+[0m21:24:38.873690 [info ] [MainThread]: Running with dbt=1.8.0
+[0m21:24:38.874448 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Rajesh\\Desktop\\My_dbt_project\\sleekdatamart\\sleekdatamart\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m21:24:38.914282 [info ] [MainThread]: dbt version: 1.8.0
+[0m21:24:38.915473 [info ] [MainThread]: python version: 3.13.1
+[0m21:24:38.915917 [info ] [MainThread]: python path: C:\Users\Rajesh\AppData\Local\Programs\Python\Python313\python.exe
+[0m21:24:38.916427 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m21:24:39.511158 [info ] [MainThread]: Using profiles dir at C:\Users\Rajesh\.dbt
+[0m21:24:39.512208 [info ] [MainThread]: Using profiles.yml file at C:\Users\Rajesh\.dbt\profiles.yml
+[0m21:24:39.512811 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Rajesh\Desktop\My_dbt_project\sleekdatamart\sleekdatamart\dbt_project.yml
+[0m21:24:39.514170 [info ] [MainThread]: adapter type: snowflake
+[0m21:24:39.515517 [info ] [MainThread]: adapter version: 1.8.4
+[0m21:24:39.597926 [info ] [MainThread]: Configuration:
+[0m21:24:39.599074 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:24:39.599838 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m21:24:39.600559 [info ] [MainThread]: Required dependencies:
+[0m21:24:39.601294 [debug] [MainThread]: Executing "git --help"
+[0m21:24:39.632141 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:24:39.632523 [debug] [MainThread]: STDERR: "b''"
+[0m21:24:39.632801 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:24:39.633770 [info ] [MainThread]: Connection:
+[0m21:24:39.634556 [info ] [MainThread]:   account: teeqrux-ww21611
+[0m21:24:39.635255 [info ] [MainThread]:   user: BITECHLAKE
+[0m21:24:39.636040 [info ] [MainThread]:   database: SLEEKMART_OMS
+[0m21:24:39.636831 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m21:24:39.637670 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m21:24:39.638344 [info ] [MainThread]:   schema: L1_LANDING
+[0m21:24:39.639000 [info ] [MainThread]:   authenticator: None
+[0m21:24:39.639677 [info ] [MainThread]:   oauth_client_id: None
+[0m21:24:39.640520 [info ] [MainThread]:   query_tag: None
+[0m21:24:39.641377 [info ] [MainThread]:   client_session_keep_alive: False
+[0m21:24:39.642164 [info ] [MainThread]:   host: None
+[0m21:24:39.643273 [info ] [MainThread]:   port: None
+[0m21:24:39.644237 [info ] [MainThread]:   proxy_host: None
+[0m21:24:39.645115 [info ] [MainThread]:   proxy_port: None
+[0m21:24:39.645963 [info ] [MainThread]:   protocol: None
+[0m21:24:39.646855 [info ] [MainThread]:   connect_retries: 1
+[0m21:24:39.647663 [info ] [MainThread]:   connect_timeout: None
+[0m21:24:39.648398 [info ] [MainThread]:   retry_on_database_errors: False
+[0m21:24:39.649202 [info ] [MainThread]:   retry_all: False
+[0m21:24:39.650072 [info ] [MainThread]:   insecure_mode: False
+[0m21:24:39.651313 [info ] [MainThread]:   reuse_connections: None
+[0m21:24:39.652419 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m21:24:39.871816 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m21:24:39.872423 [debug] [MainThread]: Using snowflake connection "debug"
+[0m21:24:39.872683 [debug] [MainThread]: On debug: select 1 as id
+[0m21:24:39.872905 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:24:41.822677 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.950 seconds
+[0m21:24:41.824432 [debug] [MainThread]: On debug: Close
+[0m21:24:41.934167 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m21:24:41.939136 [info ] [MainThread]: [32mAll checks passed![0m
+[0m21:24:41.977950 [debug] [MainThread]: Command `dbt debug` succeeded at 21:24:41.977606 after 3.27 seconds
+[0m21:24:41.978617 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:24:41.979211 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A729282B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A728FB1D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026A727C2CF0>]}
+[0m21:24:41.979836 [debug] [MainThread]: Flushing usage events
+[0m21:24:58.470783 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018AB007D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018AB2A60A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018AB2A60910>]}
+
+
+============================== 21:24:58.473891 | 8260768c-7a47-40f5-94a0-44420f7c8dd7 ==============================
+[0m21:24:58.473891 [info ] [MainThread]: Running with dbt=1.8.0
+[0m21:24:58.474754 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Rajesh\\Desktop\\My_dbt_project\\sleekdatamart\\sleekdatamart\\logs', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run -s customers_stg', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:24:58.922102 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8260768c-7a47-40f5-94a0-44420f7c8dd7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018AB4AF2650>]}
+[0m21:24:58.959140 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8260768c-7a47-40f5-94a0-44420f7c8dd7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018AB39D7570>]}
+[0m21:24:58.960104 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m21:24:59.140629 [debug] [MainThread]: checksum: dbb12d416fdb55e3665e4828703bbedf40c5c90ed7ca6ff39bbbfb29b12b0a92, vars: {}, profile: , target: , version: 1.8.0
+[0m21:24:59.223714 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:24:59.223985 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:24:59.227304 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 5 unused configuration paths:
+- models.sleekdatamart.customer_stg
+- models.sleekdatamart.customerrevenue
+- models.sleekdatamart.orders_stg
+- models.sleekdatamart.orders_fact
+- models.sleekdatamart.orderitems_stg
+[0m21:24:59.245403 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8260768c-7a47-40f5-94a0-44420f7c8dd7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018AB4DB0C50>]}
+[0m21:24:59.431530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8260768c-7a47-40f5-94a0-44420f7c8dd7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018AB4A73890>]}
+[0m21:24:59.432436 [info ] [MainThread]: Found 1 model, 13 sources, 460 macros
+[0m21:24:59.433766 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8260768c-7a47-40f5-94a0-44420f7c8dd7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018AB4E5B3F0>]}
+[0m21:24:59.436538 [info ] [MainThread]: 
+[0m21:24:59.438057 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m21:24:59.439850 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS'
+[0m21:24:59.455245 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS"
+[0m21:24:59.455707 [debug] [ThreadPool]: On list_SLEEKMART_OMS: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS"} */
+show terse schemas in database SLEEKMART_OMS
+    limit 10000
+[0m21:24:59.456031 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:25:00.659064 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 1.203 seconds
+[0m21:25:00.662231 [debug] [ThreadPool]: On list_SLEEKMART_OMS: Close
+[0m21:25:01.003066 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS_L1_LANDING'
+[0m21:25:01.015293 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS_L1_LANDING"
+[0m21:25:01.015783 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L1_LANDING: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS_L1_LANDING"} */
+show objects in SLEEKMART_OMS.L1_LANDING limit 10000
+[0m21:25:01.016134 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:25:01.695574 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 0.679 seconds
+[0m21:25:01.737565 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L1_LANDING: Close
+[0m21:25:01.900675 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8260768c-7a47-40f5-94a0-44420f7c8dd7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018AB4F2E1A0>]}
+[0m21:25:01.902225 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m21:25:01.903635 [info ] [MainThread]: 
+[0m21:25:01.915525 [debug] [Thread-1 (]: Began running node model.sleekdatamart.customers_stg
+[0m21:25:01.917127 [info ] [Thread-1 (]: 1 of 1 START sql view model L1_LANDING.customers_stg ........................... [RUN]
+[0m21:25:01.918890 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.sleekdatamart.customers_stg'
+[0m21:25:01.919410 [debug] [Thread-1 (]: Began compiling node model.sleekdatamart.customers_stg
+[0m21:25:01.928366 [debug] [Thread-1 (]: Writing injected SQL for node "model.sleekdatamart.customers_stg"
+[0m21:25:01.932212 [debug] [Thread-1 (]: Began executing node model.sleekdatamart.customers_stg
+[0m21:25:02.008860 [debug] [Thread-1 (]: Writing runtime sql for node "model.sleekdatamart.customers_stg"
+[0m21:25:02.012484 [debug] [Thread-1 (]: Using snowflake connection "model.sleekdatamart.customers_stg"
+[0m21:25:02.013085 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "node_id": "model.sleekdatamart.customers_stg"} */
+create or replace   view SLEEKMART_OMS.L1_LANDING.customers_stg
+  
+   as (
+    SELECT
+    CustomerID,
+    FIrstName,
+    lastname,
+    Email,
+    Phone,
+    Address,
+    City,
+    State,
+    ZipCode,
+    Updated_at,
+    CONCAT(FirstName, ' ', LastName) AS CustomerName
+FROM SLEEKMART_OMS.l1_landing.CUSTOMERS
+  );
+[0m21:25:02.013555 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:25:02.976207 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.962 seconds
+[0m21:25:03.005121 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: Close
+[0m21:25:03.140574 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8260768c-7a47-40f5-94a0-44420f7c8dd7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018AB4FD3050>]}
+[0m21:25:03.141471 [info ] [Thread-1 (]: 1 of 1 OK created sql view model L1_LANDING.customers_stg ...................... [[32mSUCCESS 1[0m in 1.22s]
+[0m21:25:03.142686 [debug] [Thread-1 (]: Finished running node model.sleekdatamart.customers_stg
+[0m21:25:03.144057 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:25:03.144288 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS' was properly closed.
+[0m21:25:03.144465 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS_L1_LANDING' was properly closed.
+[0m21:25:03.144625 [debug] [MainThread]: Connection 'model.sleekdatamart.customers_stg' was properly closed.
+[0m21:25:03.144836 [info ] [MainThread]: 
+[0m21:25:03.145438 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 3.71 seconds (3.71s).
+[0m21:25:03.146281 [debug] [MainThread]: Command end result
+[0m21:25:03.169789 [info ] [MainThread]: 
+[0m21:25:03.170675 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:25:03.171773 [info ] [MainThread]: 
+[0m21:25:03.172504 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m21:25:03.174106 [debug] [MainThread]: Command `dbt run` succeeded at 21:25:03.173877 after 4.80 seconds
+[0m21:25:03.174558 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018AB50DB750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018AB50D74D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018AB05E23F0>]}
+[0m21:25:03.174963 [debug] [MainThread]: Flushing usage events
+[0m21:29:05.430769 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002531AC0D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002531D5F0A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002531D5F0910>]}
+
+
+============================== 21:29:05.433928 | f8036c23-7673-4348-bf51-0e6cdcd6637c ==============================
+[0m21:29:05.433928 [info ] [MainThread]: Running with dbt=1.8.0
+[0m21:29:05.434803 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'log_path': 'C:\\Users\\Rajesh\\Desktop\\My_dbt_project\\sleekdatamart\\sleekdatamart\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run -s customers_stg', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:29:05.756567 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f8036c23-7673-4348-bf51-0e6cdcd6637c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002531F5E2650>]}
+[0m21:29:05.792925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f8036c23-7673-4348-bf51-0e6cdcd6637c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002531F487570>]}
+[0m21:29:05.793701 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m21:29:05.939111 [debug] [MainThread]: checksum: dbb12d416fdb55e3665e4828703bbedf40c5c90ed7ca6ff39bbbfb29b12b0a92, vars: {}, profile: , target: , version: 1.8.0
+[0m21:29:06.026001 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:29:06.026286 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:29:06.029740 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 5 unused configuration paths:
+- models.sleekdatamart.orderitems_stg
+- models.sleekdatamart.customer_stg
+- models.sleekdatamart.orders_stg
+- models.sleekdatamart.orders_fact
+- models.sleekdatamart.customerrevenue
+[0m21:29:06.051786 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f8036c23-7673-4348-bf51-0e6cdcd6637c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002531F8A0C50>]}
+[0m21:29:06.127695 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f8036c23-7673-4348-bf51-0e6cdcd6637c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002531F563890>]}
+[0m21:29:06.128178 [info ] [MainThread]: Found 1 model, 13 sources, 460 macros
+[0m21:29:06.128884 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f8036c23-7673-4348-bf51-0e6cdcd6637c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002531F94B3F0>]}
+[0m21:29:06.130010 [info ] [MainThread]: 
+[0m21:29:06.130855 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m21:29:06.131875 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS'
+[0m21:29:06.140712 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS"
+[0m21:29:06.140975 [debug] [ThreadPool]: On list_SLEEKMART_OMS: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS"} */
+show terse schemas in database SLEEKMART_OMS
+    limit 10000
+[0m21:29:06.141243 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:29:07.779864 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 1.638 seconds
+[0m21:29:07.782492 [debug] [ThreadPool]: On list_SLEEKMART_OMS: Close
+[0m21:29:07.900620 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS_L1_LANDING'
+[0m21:29:07.919706 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS_L1_LANDING"
+[0m21:29:07.920070 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L1_LANDING: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS_L1_LANDING"} */
+show objects in SLEEKMART_OMS.L1_LANDING limit 10000
+[0m21:29:07.920324 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:29:09.000312 [debug] [ThreadPool]: SQL status: SUCCESS 10 in 1.080 seconds
+[0m21:29:09.003597 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L1_LANDING: Close
+[0m21:29:09.099320 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f8036c23-7673-4348-bf51-0e6cdcd6637c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002531FA161A0>]}
+[0m21:29:09.100141 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m21:29:09.101235 [info ] [MainThread]: 
+[0m21:29:09.106850 [debug] [Thread-1 (]: Began running node model.sleekdatamart.customers_stg
+[0m21:29:09.108343 [info ] [Thread-1 (]: 1 of 1 START sql view model L1_LANDING.customers_stg ........................... [RUN]
+[0m21:29:09.111181 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.sleekdatamart.customers_stg'
+[0m21:29:09.112461 [debug] [Thread-1 (]: Began compiling node model.sleekdatamart.customers_stg
+[0m21:29:09.123698 [debug] [Thread-1 (]: Writing injected SQL for node "model.sleekdatamart.customers_stg"
+[0m21:29:09.127480 [debug] [Thread-1 (]: Began executing node model.sleekdatamart.customers_stg
+[0m21:29:09.200347 [debug] [Thread-1 (]: Writing runtime sql for node "model.sleekdatamart.customers_stg"
+[0m21:29:09.201513 [debug] [Thread-1 (]: Using snowflake connection "model.sleekdatamart.customers_stg"
+[0m21:29:09.201869 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "node_id": "model.sleekdatamart.customers_stg"} */
+create or replace   view SLEEKMART_OMS.L1_LANDING.customers_stg
+  
+   as (
+    SELECT
+    CustomerID,
+    FIrstName,
+    lastname,
+    Email,
+    Phone,
+    Address,
+    City,
+    State,
+    ZipCode,
+    Updated_at,
+    CONCAT(FirstName, ' ', LastName) AS CustomerName,
+    current_timestamp() as last_update
+FROM SLEEKMART_OMS.l1_landing.CUSTOMERS
+  );
+[0m21:29:09.202143 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:29:10.026337 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.824 seconds
+[0m21:29:10.045005 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: Close
+[0m21:29:10.176253 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f8036c23-7673-4348-bf51-0e6cdcd6637c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002531FAC2690>]}
+[0m21:29:10.177247 [info ] [Thread-1 (]: 1 of 1 OK created sql view model L1_LANDING.customers_stg ...................... [[32mSUCCESS 1[0m in 1.06s]
+[0m21:29:10.178615 [debug] [Thread-1 (]: Finished running node model.sleekdatamart.customers_stg
+[0m21:29:10.180681 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:29:10.181154 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS' was properly closed.
+[0m21:29:10.181526 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS_L1_LANDING' was properly closed.
+[0m21:29:10.181858 [debug] [MainThread]: Connection 'model.sleekdatamart.customers_stg' was properly closed.
+[0m21:29:10.182286 [info ] [MainThread]: 
+[0m21:29:10.183166 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 4.05 seconds (4.05s).
+[0m21:29:10.184686 [debug] [MainThread]: Command end result
+[0m21:29:10.212406 [info ] [MainThread]: 
+[0m21:29:10.213564 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:29:10.214248 [info ] [MainThread]: 
+[0m21:29:10.215248 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m21:29:10.216252 [debug] [MainThread]: Command `dbt run` succeeded at 21:29:10.216159 after 4.90 seconds
+[0m21:29:10.216506 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002531FC0D180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002531B1700F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002531B1723F0>]}
+[0m21:29:10.216742 [debug] [MainThread]: Flushing usage events
+[0m21:30:19.564592 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A33267D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A335050A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A335050910>]}
+
+
+============================== 21:30:19.568301 | 26a4b7d3-fe5d-486c-990f-cef6dd773184 ==============================
+[0m21:30:19.568301 [info ] [MainThread]: Running with dbt=1.8.0
+[0m21:30:19.569281 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'C:\\Users\\Rajesh\\Desktop\\My_dbt_project\\sleekdatamart\\sleekdatamart\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run -s customers_stg', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:30:20.204716 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '26a4b7d3-fe5d-486c-990f-cef6dd773184', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3370E2650>]}
+[0m21:30:20.241155 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '26a4b7d3-fe5d-486c-990f-cef6dd773184', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A336F93570>]}
+[0m21:30:20.242263 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m21:30:20.417356 [debug] [MainThread]: checksum: dbb12d416fdb55e3665e4828703bbedf40c5c90ed7ca6ff39bbbfb29b12b0a92, vars: {}, profile: , target: , version: 1.8.0
+[0m21:30:20.519892 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:30:20.520185 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:30:20.523666 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 5 unused configuration paths:
+- models.sleekdatamart.customers_stg
+- models.sleekdatamart.orders_fact
+- models.sleekdatamart.orders_stg
+- models.sleekdatamart.orderitems_stg
+- models.sleekdatamart.customerrevenue
+[0m21:30:20.542948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '26a4b7d3-fe5d-486c-990f-cef6dd773184', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3373A0C50>]}
+[0m21:30:20.643810 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '26a4b7d3-fe5d-486c-990f-cef6dd773184', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A337063890>]}
+[0m21:30:20.644434 [info ] [MainThread]: Found 1 model, 13 sources, 460 macros
+[0m21:30:20.645375 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '26a4b7d3-fe5d-486c-990f-cef6dd773184', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A33744B3F0>]}
+[0m21:30:20.646594 [info ] [MainThread]: 
+[0m21:30:20.647736 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m21:30:20.649113 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS'
+[0m21:30:20.658896 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS"
+[0m21:30:20.659283 [debug] [ThreadPool]: On list_SLEEKMART_OMS: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS"} */
+show terse schemas in database SLEEKMART_OMS
+    limit 10000
+[0m21:30:20.659510 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:30:22.535310 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 1.876 seconds
+[0m21:30:22.538360 [debug] [ThreadPool]: On list_SLEEKMART_OMS: Close
+[0m21:30:22.666986 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS_L1_LANDING'
+[0m21:30:22.684744 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS_L1_LANDING"
+[0m21:30:22.685286 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L1_LANDING: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS_L1_LANDING"} */
+show objects in SLEEKMART_OMS.L1_LANDING limit 10000
+[0m21:30:22.685650 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:30:23.695838 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 1.010 seconds
+[0m21:30:23.704479 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L1_LANDING: Close
+[0m21:30:23.825500 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '26a4b7d3-fe5d-486c-990f-cef6dd773184', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A33751E1A0>]}
+[0m21:30:23.826490 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m21:30:23.827801 [info ] [MainThread]: 
+[0m21:30:23.839408 [debug] [Thread-1 (]: Began running node model.sleekdatamart.customers_stg
+[0m21:30:23.840293 [info ] [Thread-1 (]: 1 of 1 START sql view model L1_LANDING.customers_stg ........................... [RUN]
+[0m21:30:23.841988 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.sleekdatamart.customers_stg'
+[0m21:30:23.842812 [debug] [Thread-1 (]: Began compiling node model.sleekdatamart.customers_stg
+[0m21:30:23.852430 [debug] [Thread-1 (]: Writing injected SQL for node "model.sleekdatamart.customers_stg"
+[0m21:30:23.854348 [debug] [Thread-1 (]: Began executing node model.sleekdatamart.customers_stg
+[0m21:30:23.927557 [debug] [Thread-1 (]: Writing runtime sql for node "model.sleekdatamart.customers_stg"
+[0m21:30:23.928702 [debug] [Thread-1 (]: Using snowflake connection "model.sleekdatamart.customers_stg"
+[0m21:30:23.929052 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "node_id": "model.sleekdatamart.customers_stg"} */
+create or replace   view SLEEKMART_OMS.L1_LANDING.customers_stg
+  
+   as (
+    SELECT
+    CustomerID,
+    FIrstName,
+    lastname,
+    Email,
+    Phone,
+    Address,
+    City,
+    State,
+    ZipCode,
+    Updated_at,
+    CONCAT(FirstName, ' ', LastName) AS CustomerName,
+    current_timestamp() as last_update
+FROM SLEEKMART_OMS.l1_landing.CUSTOMERS
+  );
+[0m21:30:23.929301 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:30:25.112494 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 1.183 seconds
+[0m21:30:25.143756 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: Close
+[0m21:30:25.269860 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '26a4b7d3-fe5d-486c-990f-cef6dd773184', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3375C3050>]}
+[0m21:30:25.271003 [info ] [Thread-1 (]: 1 of 1 OK created sql view model L1_LANDING.customers_stg ...................... [[32mSUCCESS 1[0m in 1.43s]
+[0m21:30:25.272501 [debug] [Thread-1 (]: Finished running node model.sleekdatamart.customers_stg
+[0m21:30:25.274596 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:30:25.275078 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS' was properly closed.
+[0m21:30:25.275446 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS_L1_LANDING' was properly closed.
+[0m21:30:25.275780 [debug] [MainThread]: Connection 'model.sleekdatamart.customers_stg' was properly closed.
+[0m21:30:25.276186 [info ] [MainThread]: 
+[0m21:30:25.277338 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 4.63 seconds (4.63s).
+[0m21:30:25.279210 [debug] [MainThread]: Command end result
+[0m21:30:25.316136 [info ] [MainThread]: 
+[0m21:30:25.317336 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:30:25.318289 [info ] [MainThread]: 
+[0m21:30:25.318948 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m21:30:25.319871 [debug] [MainThread]: Command `dbt run` succeeded at 21:30:25.319777 after 5.88 seconds
+[0m21:30:25.320149 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3376C8470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3374E2FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A3374E31B0>]}
+[0m21:30:25.320394 [debug] [MainThread]: Flushing usage events
+[0m21:32:17.345904 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A889CED010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A88C6C0A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A88C6C0910>]}
+
+
+============================== 21:32:17.352520 | b5af7346-932b-4ae5-8c62-0659992433ed ==============================
+[0m21:32:17.352520 [info ] [MainThread]: Running with dbt=1.8.0
+[0m21:32:17.353646 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\Rajesh\\Desktop\\My_dbt_project\\sleekdatamart\\sleekdatamart\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run -s customers_stg', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:32:17.863826 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b5af7346-932b-4ae5-8c62-0659992433ed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A88E772650>]}
+[0m21:32:17.910491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b5af7346-932b-4ae5-8c62-0659992433ed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A88E623570>]}
+[0m21:32:17.911599 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m21:32:18.098089 [debug] [MainThread]: checksum: dbb12d416fdb55e3665e4828703bbedf40c5c90ed7ca6ff39bbbfb29b12b0a92, vars: {}, profile: , target: , version: 1.8.0
+[0m21:32:18.180504 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:32:18.180795 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:32:18.184162 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 5 unused configuration paths:
+- models.sleekdatamart.orders_fact
+- models.sleekdatamart.orderitems_stg
+- models.sleekdatamart.orders_stg
+- models.sleekdatamart.customers_stg
+- models.sleekdatamart.customerrevenue
+[0m21:32:18.208690 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b5af7346-932b-4ae5-8c62-0659992433ed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A88EA30C50>]}
+[0m21:32:18.274730 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b5af7346-932b-4ae5-8c62-0659992433ed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A88E6F3890>]}
+[0m21:32:18.275461 [info ] [MainThread]: Found 1 model, 13 sources, 460 macros
+[0m21:32:18.276205 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b5af7346-932b-4ae5-8c62-0659992433ed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A88EADB3F0>]}
+[0m21:32:18.277189 [info ] [MainThread]: 
+[0m21:32:18.277999 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m21:32:18.300811 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS'
+[0m21:32:18.313672 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS"
+[0m21:32:18.313975 [debug] [ThreadPool]: On list_SLEEKMART_OMS: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS"} */
+show terse schemas in database SLEEKMART_OMS
+    limit 10000
+[0m21:32:18.314185 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:32:19.176096 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 0.862 seconds
+[0m21:32:19.179298 [debug] [ThreadPool]: On list_SLEEKMART_OMS: Close
+[0m21:32:19.340845 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS_L1_LANDING'
+[0m21:32:19.357480 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS_L1_LANDING"
+[0m21:32:19.357879 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L1_LANDING: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS_L1_LANDING"} */
+show objects in SLEEKMART_OMS.L1_LANDING limit 10000
+[0m21:32:19.358181 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:32:20.072030 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 0.714 seconds
+[0m21:32:20.077175 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L1_LANDING: Close
+[0m21:32:20.223235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b5af7346-932b-4ae5-8c62-0659992433ed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A88EBAA1A0>]}
+[0m21:32:20.223901 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m21:32:20.224867 [info ] [MainThread]: 
+[0m21:32:20.231495 [debug] [Thread-1 (]: Began running node model.sleekdatamart.customers_stg
+[0m21:32:20.232203 [info ] [Thread-1 (]: 1 of 1 START sql view model L1_LANDING.customers_stg ........................... [RUN]
+[0m21:32:20.233603 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.sleekdatamart.customers_stg'
+[0m21:32:20.234945 [debug] [Thread-1 (]: Began compiling node model.sleekdatamart.customers_stg
+[0m21:32:20.243578 [debug] [Thread-1 (]: Writing injected SQL for node "model.sleekdatamart.customers_stg"
+[0m21:32:20.244646 [debug] [Thread-1 (]: Began executing node model.sleekdatamart.customers_stg
+[0m21:32:20.354921 [debug] [Thread-1 (]: Writing runtime sql for node "model.sleekdatamart.customers_stg"
+[0m21:32:20.357083 [debug] [Thread-1 (]: Using snowflake connection "model.sleekdatamart.customers_stg"
+[0m21:32:20.357549 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "node_id": "model.sleekdatamart.customers_stg"} */
+create or replace   view SLEEKMART_OMS.L1_LANDING.customers_stg
+  
+   as (
+    SELECT
+    CustomerID,
+    FIrstName,
+    lastname,
+    Email,
+    Phone,
+    Address,
+    City,
+    State,
+    ZipCode,
+    Updated_at,
+    CONCAT(FirstName, ' ', LastName) AS CustomerName,
+    current_timestamp() as last_update
+FROM SLEEKMART_OMS.l1_landing.CUSTOMERS
+  );
+[0m21:32:20.357888 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:32:21.303430 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.945 seconds
+[0m21:32:21.330047 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: Close
+[0m21:32:21.929926 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b5af7346-932b-4ae5-8c62-0659992433ed', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A88EC53050>]}
+[0m21:32:21.930602 [info ] [Thread-1 (]: 1 of 1 OK created sql view model L1_LANDING.customers_stg ...................... [[32mSUCCESS 1[0m in 1.70s]
+[0m21:32:21.931683 [debug] [Thread-1 (]: Finished running node model.sleekdatamart.customers_stg
+[0m21:32:21.933197 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:32:21.933519 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS' was properly closed.
+[0m21:32:21.933819 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS_L1_LANDING' was properly closed.
+[0m21:32:21.934027 [debug] [MainThread]: Connection 'model.sleekdatamart.customers_stg' was properly closed.
+[0m21:32:21.934356 [info ] [MainThread]: 
+[0m21:32:21.934886 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 3.66 seconds (3.66s).
+[0m21:32:21.935746 [debug] [MainThread]: Command end result
+[0m21:32:21.964789 [info ] [MainThread]: 
+[0m21:32:21.966642 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:32:21.968047 [info ] [MainThread]: 
+[0m21:32:21.969270 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m21:32:21.970271 [debug] [MainThread]: Command `dbt run` succeeded at 21:32:21.970150 after 4.78 seconds
+[0m21:32:21.970601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A88ED5B750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A88EB72FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A88EB731B0>]}
+[0m21:32:21.970951 [debug] [MainThread]: Flushing usage events
+[0m21:47:23.507802 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131B551D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131B7EF0A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131B7EF0910>]}
+
+
+============================== 21:47:23.513972 | 226e8605-1f93-4443-a019-2d93343e917d ==============================
+[0m21:47:23.513972 [info ] [MainThread]: Running with dbt=1.8.0
+[0m21:47:23.515155 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\Rajesh\\Desktop\\My_dbt_project\\sleekdatamart\\sleekdatamart\\logs', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run -s customers_stg', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:47:24.135191 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '226e8605-1f93-4443-a019-2d93343e917d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131B9ED6650>]}
+[0m21:47:24.187840 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '226e8605-1f93-4443-a019-2d93343e917d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131B9DA7570>]}
+[0m21:47:24.189073 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m21:47:24.432290 [debug] [MainThread]: checksum: dbb12d416fdb55e3665e4828703bbedf40c5c90ed7ca6ff39bbbfb29b12b0a92, vars: {}, profile: , target: , version: 1.8.0
+[0m21:47:24.526540 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:47:24.526844 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:47:24.530181 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 5 unused configuration paths:
+- models.sleekdatamart.orders_fact
+- models.sleekdatamart.orders_stg
+- models.sleekdatamart.orderitems_stg
+- models.sleekdatamart.customerrevenue
+- models.sleekdatamart.customers_stg
+[0m21:47:24.549602 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '226e8605-1f93-4443-a019-2d93343e917d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131BA1B0C50>]}
+[0m21:47:24.665072 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '226e8605-1f93-4443-a019-2d93343e917d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131B9E73890>]}
+[0m21:47:24.665788 [info ] [MainThread]: Found 1 model, 13 sources, 460 macros
+[0m21:47:24.666583 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '226e8605-1f93-4443-a019-2d93343e917d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131BA25B3F0>]}
+[0m21:47:24.668413 [info ] [MainThread]: 
+[0m21:47:24.669179 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m21:47:24.670034 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS'
+[0m21:47:24.685315 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS"
+[0m21:47:24.685681 [debug] [ThreadPool]: On list_SLEEKMART_OMS: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS"} */
+show terse schemas in database SLEEKMART_OMS
+    limit 10000
+[0m21:47:24.685916 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:47:26.058158 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 1.372 seconds
+[0m21:47:26.061907 [debug] [ThreadPool]: On list_SLEEKMART_OMS: Close
+[0m21:47:26.246639 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS_L2_PROCESSING'
+[0m21:47:26.264300 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS_L2_PROCESSING"
+[0m21:47:26.264771 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L2_PROCESSING: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS_L2_PROCESSING"} */
+show objects in SLEEKMART_OMS.L2_PROCESSING limit 10000
+[0m21:47:26.265105 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:47:27.048160 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.783 seconds
+[0m21:47:27.051917 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L2_PROCESSING: Close
+[0m21:47:27.191559 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '226e8605-1f93-4443-a019-2d93343e917d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131BA32E1A0>]}
+[0m21:47:27.192343 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m21:47:27.193498 [info ] [MainThread]: 
+[0m21:47:27.222407 [debug] [Thread-1 (]: Began running node model.sleekdatamart.customers_stg
+[0m21:47:27.224164 [info ] [Thread-1 (]: 1 of 1 START sql view model L2_PROCESSING.customers_stg ........................ [RUN]
+[0m21:47:27.225733 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.sleekdatamart.customers_stg'
+[0m21:47:27.226142 [debug] [Thread-1 (]: Began compiling node model.sleekdatamart.customers_stg
+[0m21:47:27.236981 [debug] [Thread-1 (]: Writing injected SQL for node "model.sleekdatamart.customers_stg"
+[0m21:47:27.239892 [debug] [Thread-1 (]: Began executing node model.sleekdatamart.customers_stg
+[0m21:47:27.348595 [debug] [Thread-1 (]: Writing runtime sql for node "model.sleekdatamart.customers_stg"
+[0m21:47:27.351532 [debug] [Thread-1 (]: Using snowflake connection "model.sleekdatamart.customers_stg"
+[0m21:47:27.352301 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "node_id": "model.sleekdatamart.customers_stg"} */
+create or replace   view SLEEKMART_OMS.L2_PROCESSING.customers_stg
+  
+   as (
+    
+SELECT
+    CustomerID,
+    FIrstName,
+    lastname,
+    Email,
+    Phone,
+    Address,
+    City,
+    State,
+    ZipCode,
+    Updated_at,
+    CONCAT(FirstName, ' ', LastName) AS CustomerName,
+    current_timestamp() as last_update
+FROM SLEEKMART_OMS.l1_landing.CUSTOMERS
+  );
+[0m21:47:27.352763 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:47:28.218279 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.865 seconds
+[0m21:47:28.244149 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: Close
+[0m21:47:28.622912 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '226e8605-1f93-4443-a019-2d93343e917d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131BA3D2BD0>]}
+[0m21:47:28.623816 [info ] [Thread-1 (]: 1 of 1 OK created sql view model L2_PROCESSING.customers_stg ................... [[32mSUCCESS 1[0m in 1.40s]
+[0m21:47:28.625074 [debug] [Thread-1 (]: Finished running node model.sleekdatamart.customers_stg
+[0m21:47:28.626754 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:47:28.627122 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS' was properly closed.
+[0m21:47:28.627516 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS_L2_PROCESSING' was properly closed.
+[0m21:47:28.627919 [debug] [MainThread]: Connection 'model.sleekdatamart.customers_stg' was properly closed.
+[0m21:47:28.628355 [info ] [MainThread]: 
+[0m21:47:28.629138 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 3.96 seconds (3.96s).
+[0m21:47:28.631073 [debug] [MainThread]: Command end result
+[0m21:47:28.659581 [info ] [MainThread]: 
+[0m21:47:28.660563 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:47:28.661517 [info ] [MainThread]: 
+[0m21:47:28.662228 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m21:47:28.663226 [debug] [MainThread]: Command `dbt run` succeeded at 21:47:28.663121 after 5.32 seconds
+[0m21:47:28.663500 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131BA508F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131BA2F3B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000131BA2F32F0>]}
+[0m21:47:28.663774 [debug] [MainThread]: Flushing usage events
+[0m21:56:04.810452 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002234522D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022347C10A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022347C10910>]}
+
+
+============================== 21:56:04.818484 | 276d871d-819d-437e-b1b4-b7281e1eed9c ==============================
+[0m21:56:04.818484 [info ] [MainThread]: Running with dbt=1.8.0
+[0m21:56:04.819736 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'log_path': 'C:\\Users\\Rajesh\\Desktop\\My_dbt_project\\sleekdatamart\\sleekdatamart\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run -s customers_stg', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:56:05.567424 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '276d871d-819d-437e-b1b4-b7281e1eed9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022349CC2650>]}
+[0m21:56:05.616381 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '276d871d-819d-437e-b1b4-b7281e1eed9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022349B73570>]}
+[0m21:56:05.618501 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m21:56:05.792443 [debug] [MainThread]: checksum: dbb12d416fdb55e3665e4828703bbedf40c5c90ed7ca6ff39bbbfb29b12b0a92, vars: {}, profile: , target: , version: 1.8.0
+[0m21:56:05.909675 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:56:05.910270 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:56:05.915484 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 5 unused configuration paths:
+- models.sleekdatamart.customerrevenue
+- models.sleekdatamart.orderitems_stg
+- models.sleekdatamart.orders_stg
+- models.sleekdatamart.orders_fact
+- models.sleekdatamart.customers_stg
+[0m21:56:05.939399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '276d871d-819d-437e-b1b4-b7281e1eed9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022349F80C50>]}
+[0m21:56:06.060358 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '276d871d-819d-437e-b1b4-b7281e1eed9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022349C43890>]}
+[0m21:56:06.061054 [info ] [MainThread]: Found 1 model, 13 sources, 460 macros
+[0m21:56:06.061982 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '276d871d-819d-437e-b1b4-b7281e1eed9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002234A02F3F0>]}
+[0m21:56:06.063988 [info ] [MainThread]: 
+[0m21:56:06.065247 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m21:56:06.066986 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS'
+[0m21:56:06.083999 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS"
+[0m21:56:06.084953 [debug] [ThreadPool]: On list_SLEEKMART_OMS: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS"} */
+show terse schemas in database SLEEKMART_OMS
+    limit 10000
+[0m21:56:06.085654 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:56:07.321379 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 1.236 seconds
+[0m21:56:07.324673 [debug] [ThreadPool]: On list_SLEEKMART_OMS: Close
+[0m21:56:07.434588 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS_L1_LANDING'
+[0m21:56:07.450912 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS_L1_LANDING"
+[0m21:56:07.451409 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L1_LANDING: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS_L1_LANDING"} */
+show objects in SLEEKMART_OMS.L1_LANDING limit 10000
+[0m21:56:07.451679 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:56:08.072626 [debug] [ThreadPool]: SQL status: SUCCESS 9 in 0.621 seconds
+[0m21:56:08.075588 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L1_LANDING: Close
+[0m21:56:08.215522 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '276d871d-819d-437e-b1b4-b7281e1eed9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002234A0FE1A0>]}
+[0m21:56:08.217964 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m21:56:08.219628 [info ] [MainThread]: 
+[0m21:56:08.231273 [debug] [Thread-1 (]: Began running node model.sleekdatamart.customers_stg
+[0m21:56:08.232856 [info ] [Thread-1 (]: 1 of 1 START sql view model L1_LANDING.customers_stg ........................... [RUN]
+[0m21:56:08.234529 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.sleekdatamart.customers_stg'
+[0m21:56:08.235377 [debug] [Thread-1 (]: Began compiling node model.sleekdatamart.customers_stg
+[0m21:56:08.244728 [debug] [Thread-1 (]: Writing injected SQL for node "model.sleekdatamart.customers_stg"
+[0m21:56:08.245821 [debug] [Thread-1 (]: Began executing node model.sleekdatamart.customers_stg
+[0m21:56:08.327802 [debug] [Thread-1 (]: Writing runtime sql for node "model.sleekdatamart.customers_stg"
+[0m21:56:08.329465 [debug] [Thread-1 (]: Using snowflake connection "model.sleekdatamart.customers_stg"
+[0m21:56:08.329932 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "node_id": "model.sleekdatamart.customers_stg"} */
+create or replace   view SLEEKMART_OMS.L1_LANDING.customers_stg
+  
+   as (
+    SELECT
+    CustomerID,
+    FIrstName,
+    lastname,
+    Email,
+    Phone,
+    Address,
+    City,
+    State,
+    ZipCode,
+    Updated_at,
+    CONCAT(FirstName, ' ', LastName) AS CustomerName,
+    current_timestamp() as last_update
+FROM SLEEKMART_OMS.l1_landing.CUSTOMERS
+  );
+[0m21:56:08.330315 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:56:09.274421 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.944 seconds
+[0m21:56:09.300636 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: Close
+[0m21:56:09.423299 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '276d871d-819d-437e-b1b4-b7281e1eed9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002234A1A3050>]}
+[0m21:56:09.424453 [info ] [Thread-1 (]: 1 of 1 OK created sql view model L1_LANDING.customers_stg ...................... [[32mSUCCESS 1[0m in 1.19s]
+[0m21:56:09.426041 [debug] [Thread-1 (]: Finished running node model.sleekdatamart.customers_stg
+[0m21:56:09.428505 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:56:09.428971 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS' was properly closed.
+[0m21:56:09.429364 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS_L1_LANDING' was properly closed.
+[0m21:56:09.429708 [debug] [MainThread]: Connection 'model.sleekdatamart.customers_stg' was properly closed.
+[0m21:56:09.430854 [info ] [MainThread]: 
+[0m21:56:09.432068 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 3.37 seconds (3.37s).
+[0m21:56:09.434066 [debug] [MainThread]: Command end result
+[0m21:56:09.461239 [info ] [MainThread]: 
+[0m21:56:09.462388 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:56:09.463210 [info ] [MainThread]: 
+[0m21:56:09.464114 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m21:56:09.465464 [debug] [MainThread]: Command `dbt run` succeeded at 21:56:09.465325 after 4.84 seconds
+[0m21:56:09.465916 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002234A2AD180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002234A0C6FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002234A0C71B0>]}
+[0m21:56:09.466582 [debug] [MainThread]: Flushing usage events
+[0m21:57:27.895843 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A587A0D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A58A3E0A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A58A3E0910>]}
+
+
+============================== 21:57:27.898918 | e8f1269d-06c7-4992-8c87-cf1c71a0afb0 ==============================
+[0m21:57:27.898918 [info ] [MainThread]: Running with dbt=1.8.0
+[0m21:57:27.899981 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Rajesh\\Desktop\\My_dbt_project\\sleekdatamart\\sleekdatamart\\logs', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run -s customers_stg', 'send_anonymous_usage_stats': 'True'}
+[0m21:57:28.201402 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'e8f1269d-06c7-4992-8c87-cf1c71a0afb0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A58C43E650>]}
+[0m21:57:28.237893 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'e8f1269d-06c7-4992-8c87-cf1c71a0afb0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A58B333570>]}
+[0m21:57:28.238715 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m21:57:28.376270 [debug] [MainThread]: checksum: dbb12d416fdb55e3665e4828703bbedf40c5c90ed7ca6ff39bbbfb29b12b0a92, vars: {}, profile: , target: , version: 1.8.0
+[0m21:57:28.460720 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:57:28.461009 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:57:28.464369 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 5 unused configuration paths:
+- models.sleekdatamart.orders_fact
+- models.sleekdatamart.orders_stg
+- models.sleekdatamart.orderitems_stg
+- models.sleekdatamart.customerrevenue
+- models.sleekdatamart.customers_stg
+[0m21:57:28.486687 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'e8f1269d-06c7-4992-8c87-cf1c71a0afb0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A58C710C50>]}
+[0m21:57:28.561578 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'e8f1269d-06c7-4992-8c87-cf1c71a0afb0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A58C3D3890>]}
+[0m21:57:28.562033 [info ] [MainThread]: Found 1 model, 13 sources, 460 macros
+[0m21:57:28.562918 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e8f1269d-06c7-4992-8c87-cf1c71a0afb0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A58C7BB3F0>]}
+[0m21:57:28.564008 [info ] [MainThread]: 
+[0m21:57:28.564926 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m21:57:28.566003 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS'
+[0m21:57:28.575091 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS"
+[0m21:57:28.575350 [debug] [ThreadPool]: On list_SLEEKMART_OMS: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS"} */
+show terse schemas in database SLEEKMART_OMS
+    limit 10000
+[0m21:57:28.575596 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:57:29.449790 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 0.874 seconds
+[0m21:57:29.453035 [debug] [ThreadPool]: On list_SLEEKMART_OMS: Close
+[0m21:57:29.632011 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS_L1_LANDING'
+[0m21:57:29.646388 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS_L1_LANDING"
+[0m21:57:29.646724 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L1_LANDING: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS_L1_LANDING"} */
+show objects in SLEEKMART_OMS.L1_LANDING limit 10000
+[0m21:57:29.646931 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:57:30.288724 [debug] [ThreadPool]: SQL status: SUCCESS 10 in 0.642 seconds
+[0m21:57:30.291866 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L1_LANDING: Close
+[0m21:57:30.427811 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'e8f1269d-06c7-4992-8c87-cf1c71a0afb0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A58C88E000>]}
+[0m21:57:30.428633 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m21:57:30.429597 [info ] [MainThread]: 
+[0m21:57:30.433860 [debug] [Thread-1 (]: Began running node model.sleekdatamart.customers_stg
+[0m21:57:30.434578 [info ] [Thread-1 (]: 1 of 1 START sql view model L1_LANDING.customers_stg ........................... [RUN]
+[0m21:57:30.436318 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.sleekdatamart.customers_stg'
+[0m21:57:30.437183 [debug] [Thread-1 (]: Began compiling node model.sleekdatamart.customers_stg
+[0m21:57:30.446879 [debug] [Thread-1 (]: Writing injected SQL for node "model.sleekdatamart.customers_stg"
+[0m21:57:30.447735 [debug] [Thread-1 (]: Began executing node model.sleekdatamart.customers_stg
+[0m21:57:30.520760 [debug] [Thread-1 (]: Writing runtime sql for node "model.sleekdatamart.customers_stg"
+[0m21:57:30.522386 [debug] [Thread-1 (]: Using snowflake connection "model.sleekdatamart.customers_stg"
+[0m21:57:30.522808 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "node_id": "model.sleekdatamart.customers_stg"} */
+create or replace   view SLEEKMART_OMS.L1_LANDING.customers_stg
+  
+   as (
+    SELECT
+    CustomerID,
+    FIrstName,
+    lastname,
+    Email,
+    Phone,
+    Address,
+    City,
+    State,
+    ZipCode,
+    Updated_at,
+    CONCAT(FirstName, ' ', LastName) AS CustomerName,
+    current_timestamp() as last_update
+FROM SLEEKMART_OMS.l1_landing.CUSTOMERS
+  );
+[0m21:57:30.523212 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:57:31.421737 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.898 seconds
+[0m21:57:31.446398 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: Close
+[0m21:57:31.576652 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'e8f1269d-06c7-4992-8c87-cf1c71a0afb0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A58C932690>]}
+[0m21:57:31.577782 [info ] [Thread-1 (]: 1 of 1 OK created sql view model L1_LANDING.customers_stg ...................... [[32mSUCCESS 1[0m in 1.14s]
+[0m21:57:31.579449 [debug] [Thread-1 (]: Finished running node model.sleekdatamart.customers_stg
+[0m21:57:31.581668 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:57:31.582293 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS' was properly closed.
+[0m21:57:31.582671 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS_L1_LANDING' was properly closed.
+[0m21:57:31.583014 [debug] [MainThread]: Connection 'model.sleekdatamart.customers_stg' was properly closed.
+[0m21:57:31.583421 [info ] [MainThread]: 
+[0m21:57:31.584313 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 3.02 seconds (3.02s).
+[0m21:57:31.585989 [debug] [MainThread]: Command end result
+[0m21:57:31.655343 [info ] [MainThread]: 
+[0m21:57:31.656542 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:57:31.657201 [info ] [MainThread]: 
+[0m21:57:31.657902 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m21:57:31.659193 [debug] [MainThread]: Command `dbt run` succeeded at 21:57:31.659050 after 3.91 seconds
+[0m21:57:31.659577 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A58CA3C520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A587F700F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A587F723F0>]}
+[0m21:57:31.659908 [debug] [MainThread]: Flushing usage events
+[0m21:58:34.924998 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023ACAD6D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023ACD738A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023ACD738910>]}
+
+
+============================== 21:58:34.929182 | fb7b754b-be82-4494-bf37-f2793af4db34 ==============================
+[0m21:58:34.929182 [info ] [MainThread]: Running with dbt=1.8.0
+[0m21:58:34.930146 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Rajesh\\Desktop\\My_dbt_project\\sleekdatamart\\sleekdatamart\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run -s customers_stg', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:58:35.258829 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'fb7b754b-be82-4494-bf37-f2793af4db34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023ACF72E650>]}
+[0m21:58:35.297625 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'fb7b754b-be82-4494-bf37-f2793af4db34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023ACF5E7570>]}
+[0m21:58:35.298382 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m21:58:35.433220 [debug] [MainThread]: checksum: dbb12d416fdb55e3665e4828703bbedf40c5c90ed7ca6ff39bbbfb29b12b0a92, vars: {}, profile: , target: , version: 1.8.0
+[0m21:58:35.540632 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:58:35.540916 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:58:35.544640 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 5 unused configuration paths:
+- models.sleekdatamart.orderitems_stg
+- models.sleekdatamart.orders_stg
+- models.sleekdatamart.customerrevenue
+- models.sleekdatamart.customers_stg
+- models.sleekdatamart.orders_fact
+[0m21:58:35.565740 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'fb7b754b-be82-4494-bf37-f2793af4db34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023ACF9F0C50>]}
+[0m21:58:35.644003 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'fb7b754b-be82-4494-bf37-f2793af4db34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023ACF6B3890>]}
+[0m21:58:35.644455 [info ] [MainThread]: Found 1 model, 13 sources, 460 macros
+[0m21:58:35.645077 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fb7b754b-be82-4494-bf37-f2793af4db34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023ACFA9B3F0>]}
+[0m21:58:35.646266 [info ] [MainThread]: 
+[0m21:58:35.647094 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m21:58:35.648064 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS'
+[0m21:58:35.660959 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS"
+[0m21:58:35.661272 [debug] [ThreadPool]: On list_SLEEKMART_OMS: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS"} */
+show terse schemas in database SLEEKMART_OMS
+    limit 10000
+[0m21:58:35.661567 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:58:37.133096 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 1.471 seconds
+[0m21:58:37.137002 [debug] [ThreadPool]: On list_SLEEKMART_OMS: Close
+[0m21:58:37.306271 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS_L1_LANDING'
+[0m21:58:37.321771 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS_L1_LANDING"
+[0m21:58:37.322332 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L1_LANDING: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS_L1_LANDING"} */
+show objects in SLEEKMART_OMS.L1_LANDING limit 10000
+[0m21:58:37.322776 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m21:58:38.117630 [debug] [ThreadPool]: SQL status: SUCCESS 10 in 0.795 seconds
+[0m21:58:38.121296 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L1_LANDING: Close
+[0m21:58:38.273879 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'fb7b754b-be82-4494-bf37-f2793af4db34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023ACFB6A000>]}
+[0m21:58:38.274825 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m21:58:38.276086 [info ] [MainThread]: 
+[0m21:58:38.284848 [debug] [Thread-1 (]: Began running node model.sleekdatamart.customers_stg
+[0m21:58:38.285936 [info ] [Thread-1 (]: 1 of 1 START sql view model L1_LANDING.customers_stg ........................... [RUN]
+[0m21:58:38.287470 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.sleekdatamart.customers_stg'
+[0m21:58:38.288298 [debug] [Thread-1 (]: Began compiling node model.sleekdatamart.customers_stg
+[0m21:58:38.299004 [debug] [Thread-1 (]: Writing injected SQL for node "model.sleekdatamart.customers_stg"
+[0m21:58:38.300389 [debug] [Thread-1 (]: Began executing node model.sleekdatamart.customers_stg
+[0m21:58:38.375914 [debug] [Thread-1 (]: Writing runtime sql for node "model.sleekdatamart.customers_stg"
+[0m21:58:38.377419 [debug] [Thread-1 (]: Using snowflake connection "model.sleekdatamart.customers_stg"
+[0m21:58:38.378230 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "node_id": "model.sleekdatamart.customers_stg"} */
+create or replace   view SLEEKMART_OMS.L1_LANDING.customers_stg
+  
+   as (
+    SELECT
+    CustomerID,
+    FIrstName,
+    lastname,
+    Email,
+    Phone,
+    Address,
+    City,
+    State,
+    ZipCode,
+    Updated_at,
+    CONCAT(FirstName, ' ', LastName) AS CustomerName,
+    current_timestamp() as last_update
+FROM SLEEKMART_OMS.l1_landing.CUSTOMERS
+  );
+[0m21:58:38.379247 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m21:58:39.169426 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.790 seconds
+[0m21:58:39.202705 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: Close
+[0m21:58:39.339317 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'fb7b754b-be82-4494-bf37-f2793af4db34', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023ACFC12690>]}
+[0m21:58:39.340632 [info ] [Thread-1 (]: 1 of 1 OK created sql view model L1_LANDING.customers_stg ...................... [[32mSUCCESS 1[0m in 1.05s]
+[0m21:58:39.342444 [debug] [Thread-1 (]: Finished running node model.sleekdatamart.customers_stg
+[0m21:58:39.349089 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m21:58:39.350772 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS' was properly closed.
+[0m21:58:39.351489 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS_L1_LANDING' was properly closed.
+[0m21:58:39.352087 [debug] [MainThread]: Connection 'model.sleekdatamart.customers_stg' was properly closed.
+[0m21:58:39.353310 [info ] [MainThread]: 
+[0m21:58:39.355413 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 3.71 seconds (3.71s).
+[0m21:58:39.382459 [debug] [MainThread]: Command end result
+[0m21:58:39.409278 [info ] [MainThread]: 
+[0m21:58:39.409999 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m21:58:39.410817 [info ] [MainThread]: 
+[0m21:58:39.411650 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m21:58:39.413075 [debug] [MainThread]: Command `dbt run` succeeded at 21:58:39.412896 after 4.61 seconds
+[0m21:58:39.413699 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023ACFD5F750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023ACB2D00F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023ACB2D23F0>]}
+[0m21:58:39.414085 [debug] [MainThread]: Flushing usage events
+[0m21:59:59.180966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D773EED010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7768C0A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7768C0910>]}
+
+
+============================== 21:59:59.183666 | c891f8e0-71ad-4f8d-9f82-d1debe4cbf4d ==============================
+[0m21:59:59.183666 [info ] [MainThread]: Running with dbt=1.8.0
+[0m21:59:59.184266 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\Rajesh\\Desktop\\My_dbt_project\\sleekdatamart\\sleekdatamart\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run -s customers_stg', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:59:59.521880 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c891f8e0-71ad-4f8d-9f82-d1debe4cbf4d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D778972650>]}
+[0m21:59:59.561749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c891f8e0-71ad-4f8d-9f82-d1debe4cbf4d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D778833570>]}
+[0m21:59:59.562522 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m21:59:59.704884 [debug] [MainThread]: checksum: dbb12d416fdb55e3665e4828703bbedf40c5c90ed7ca6ff39bbbfb29b12b0a92, vars: {}, profile: , target: , version: 1.8.0
+[0m21:59:59.791406 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m21:59:59.791690 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m21:59:59.794981 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 4 unused configuration paths:
+- models.sleekdatamart.l2_processing.customerrevenue
+- models.sleekdatamart.l2_processing.orderitems_stg
+- models.sleekdatamart.l2_processing.orders_fact
+- models.sleekdatamart.l2_processing.orders_stg
+[0m21:59:59.812268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c891f8e0-71ad-4f8d-9f82-d1debe4cbf4d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D778C40C50>]}
+[0m21:59:59.885807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c891f8e0-71ad-4f8d-9f82-d1debe4cbf4d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D778903890>]}
+[0m21:59:59.886400 [info ] [MainThread]: Found 1 model, 13 sources, 460 macros
+[0m21:59:59.887193 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c891f8e0-71ad-4f8d-9f82-d1debe4cbf4d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D778CEB3F0>]}
+[0m21:59:59.888428 [info ] [MainThread]: 
+[0m21:59:59.889284 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m21:59:59.890252 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS'
+[0m21:59:59.899111 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS"
+[0m21:59:59.899369 [debug] [ThreadPool]: On list_SLEEKMART_OMS: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS"} */
+show terse schemas in database SLEEKMART_OMS
+    limit 10000
+[0m21:59:59.899606 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:00:00.780967 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 0.881 seconds
+[0m22:00:00.783646 [debug] [ThreadPool]: On list_SLEEKMART_OMS: Close
+[0m22:00:00.941554 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS_L2_PROCESSING'
+[0m22:00:00.956473 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS_L2_PROCESSING"
+[0m22:00:00.957023 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L2_PROCESSING: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS_L2_PROCESSING"} */
+show objects in SLEEKMART_OMS.L2_PROCESSING limit 10000
+[0m22:00:00.957401 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:00:01.796099 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.839 seconds
+[0m22:00:01.800767 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L2_PROCESSING: Close
+[0m22:00:01.945366 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c891f8e0-71ad-4f8d-9f82-d1debe4cbf4d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D778DBE000>]}
+[0m22:00:01.946285 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m22:00:01.947299 [info ] [MainThread]: 
+[0m22:00:01.953304 [debug] [Thread-1 (]: Began running node model.sleekdatamart.customers_stg
+[0m22:00:01.954069 [info ] [Thread-1 (]: 1 of 1 START sql view model L2_PROCESSING.customers_stg ........................ [RUN]
+[0m22:00:01.955340 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.sleekdatamart.customers_stg'
+[0m22:00:01.956297 [debug] [Thread-1 (]: Began compiling node model.sleekdatamart.customers_stg
+[0m22:00:01.968745 [debug] [Thread-1 (]: Writing injected SQL for node "model.sleekdatamart.customers_stg"
+[0m22:00:01.970612 [debug] [Thread-1 (]: Began executing node model.sleekdatamart.customers_stg
+[0m22:00:02.041236 [debug] [Thread-1 (]: Writing runtime sql for node "model.sleekdatamart.customers_stg"
+[0m22:00:02.042426 [debug] [Thread-1 (]: Using snowflake connection "model.sleekdatamart.customers_stg"
+[0m22:00:02.042786 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "node_id": "model.sleekdatamart.customers_stg"} */
+create or replace   view SLEEKMART_OMS.L2_PROCESSING.customers_stg
+  
+   as (
+    SELECT
+    CustomerID,
+    FIrstName,
+    lastname,
+    Email,
+    Phone,
+    Address,
+    City,
+    State,
+    ZipCode,
+    Updated_at,
+    CONCAT(FirstName, ' ', LastName) AS CustomerName,
+    current_timestamp() as last_update
+FROM SLEEKMART_OMS.l1_landing.CUSTOMERS
+  );
+[0m22:00:02.043022 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m22:00:02.986311 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.943 seconds
+[0m22:00:03.017748 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: Close
+[0m22:00:03.162510 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'c891f8e0-71ad-4f8d-9f82-d1debe4cbf4d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D778E62BD0>]}
+[0m22:00:03.163754 [info ] [Thread-1 (]: 1 of 1 OK created sql view model L2_PROCESSING.customers_stg ................... [[32mSUCCESS 1[0m in 1.21s]
+[0m22:00:03.165555 [debug] [Thread-1 (]: Finished running node model.sleekdatamart.customers_stg
+[0m22:00:03.167752 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:00:03.168268 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS' was properly closed.
+[0m22:00:03.168687 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS_L2_PROCESSING' was properly closed.
+[0m22:00:03.169071 [debug] [MainThread]: Connection 'model.sleekdatamart.customers_stg' was properly closed.
+[0m22:00:03.169517 [info ] [MainThread]: 
+[0m22:00:03.170618 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 3.28 seconds (3.28s).
+[0m22:00:03.173115 [debug] [MainThread]: Command end result
+[0m22:00:03.211675 [info ] [MainThread]: 
+[0m22:00:03.212574 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m22:00:03.213453 [info ] [MainThread]: 
+[0m22:00:03.214096 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m22:00:03.215097 [debug] [MainThread]: Command `dbt run` succeeded at 22:00:03.214981 after 4.16 seconds
+[0m22:00:03.215376 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D778F6D020>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D778F676B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D7744523F0>]}
+[0m22:00:03.215660 [debug] [MainThread]: Flushing usage events
+[0m00:03:54.968931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029BB9E6D2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029BB9AC3750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029BBC854A50>]}
+
+
+============================== 00:03:54.972504 | 2ea5797f-e17e-42fe-a294-1e08c44c7d65 ==============================
+[0m00:03:54.972504 [info ] [MainThread]: Running with dbt=1.8.0
+[0m00:03:54.972949 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'log_path': 'c:\\Users\\Rajesh\\Desktop\\My_dbt_project\\sleekdatamart\\sleekdatamart\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt ', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m00:03:55.048639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2ea5797f-e17e-42fe-a294-1e08c44c7d65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029BBB74B950>]}
+[0m00:03:55.068748 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m00:03:55.070219 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m00:03:55.071315 [debug] [MainThread]: Command `cli deps` succeeded at 00:03:55.071169 after 0.22 seconds
+[0m00:03:55.071614 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029BBC837CE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029BBCB6A470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029BBC7FBA50>]}
+[0m00:03:55.071887 [debug] [MainThread]: Flushing usage events
+[0m00:06:06.797496 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019483D6D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019486740A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019486740910>]}
+
+
+============================== 00:06:06.801937 | 72eff5d1-6e20-4ba5-afbb-19bb06a3a2c1 ==============================
+[0m00:06:06.801937 [info ] [MainThread]: Running with dbt=1.8.0
+[0m00:06:06.803066 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'log_path': 'C:\\Users\\Rajesh\\Desktop\\My_dbt_project\\sleekdatamart\\sleekdatamart\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run -s customers_stg', 'send_anonymous_usage_stats': 'True'}
+[0m00:06:07.151404 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '72eff5d1-6e20-4ba5-afbb-19bb06a3a2c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001948775E650>]}
+[0m00:06:07.187412 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '72eff5d1-6e20-4ba5-afbb-19bb06a3a2c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019487613570>]}
+[0m00:06:07.188236 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m00:06:07.372443 [debug] [MainThread]: checksum: dbb12d416fdb55e3665e4828703bbedf40c5c90ed7ca6ff39bbbfb29b12b0a92, vars: {}, profile: , target: , version: 1.8.0
+[0m00:06:07.470839 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m00:06:07.471159 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m00:06:07.475273 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 4 unused configuration paths:
+- models.sleekdatamart.l2_processing.orders_stg
+- models.sleekdatamart.l2_processing.customerrevenue
+- models.sleekdatamart.l2_processing.orderitems_stg
+- models.sleekdatamart.l2_processing.orders_fact
+[0m00:06:07.494200 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '72eff5d1-6e20-4ba5-afbb-19bb06a3a2c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194889F0C50>]}
+[0m00:06:07.667132 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '72eff5d1-6e20-4ba5-afbb-19bb06a3a2c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000194876E3890>]}
+[0m00:06:07.667532 [info ] [MainThread]: Found 1 model, 13 sources, 460 macros
+[0m00:06:07.668059 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '72eff5d1-6e20-4ba5-afbb-19bb06a3a2c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019488A9B3F0>]}
+[0m00:06:07.669363 [info ] [MainThread]: 
+[0m00:06:07.669949 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m00:06:07.670727 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS'
+[0m00:06:07.682841 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS"
+[0m00:06:07.683200 [debug] [ThreadPool]: On list_SLEEKMART_OMS: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS"} */
+show terse schemas in database SLEEKMART_OMS
+    limit 10000
+[0m00:06:07.683421 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:06:09.019385 [debug] [ThreadPool]: SQL status: SUCCESS 7 in 1.336 seconds
+[0m00:06:09.080173 [debug] [ThreadPool]: On list_SLEEKMART_OMS: Close
+[0m00:06:09.166047 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SLEEKMART_OMS_L2_PROCESSING'
+[0m00:06:09.172808 [debug] [ThreadPool]: Using snowflake connection "list_SLEEKMART_OMS_L2_PROCESSING"
+[0m00:06:09.173140 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L2_PROCESSING: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "connection_name": "list_SLEEKMART_OMS_L2_PROCESSING"} */
+show objects in SLEEKMART_OMS.L2_PROCESSING limit 10000
+[0m00:06:09.173358 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:06:09.797421 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 0.624 seconds
+[0m00:06:09.799926 [debug] [ThreadPool]: On list_SLEEKMART_OMS_L2_PROCESSING: Close
+[0m00:06:09.930513 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '72eff5d1-6e20-4ba5-afbb-19bb06a3a2c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019488B6E000>]}
+[0m00:06:09.931534 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m00:06:09.932909 [info ] [MainThread]: 
+[0m00:06:09.942410 [debug] [Thread-1 (]: Began running node model.sleekdatamart.customers_stg
+[0m00:06:09.943330 [info ] [Thread-1 (]: 1 of 1 START sql view model L2_PROCESSING.customers_stg ........................ [RUN]
+[0m00:06:09.944951 [debug] [Thread-1 (]: Acquiring new snowflake connection 'model.sleekdatamart.customers_stg'
+[0m00:06:09.945689 [debug] [Thread-1 (]: Began compiling node model.sleekdatamart.customers_stg
+[0m00:06:09.955333 [debug] [Thread-1 (]: Writing injected SQL for node "model.sleekdatamart.customers_stg"
+[0m00:06:09.956582 [debug] [Thread-1 (]: Began executing node model.sleekdatamart.customers_stg
+[0m00:06:10.028109 [debug] [Thread-1 (]: Writing runtime sql for node "model.sleekdatamart.customers_stg"
+[0m00:06:10.029769 [debug] [Thread-1 (]: Using snowflake connection "model.sleekdatamart.customers_stg"
+[0m00:06:10.030174 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: /* {"app": "dbt", "dbt_version": "1.8.0", "profile_name": "sleekdatamart", "target_name": "dev", "node_id": "model.sleekdatamart.customers_stg"} */
+create or replace   view SLEEKMART_OMS.L2_PROCESSING.customers_stg
+  
+   as (
+    SELECT
+    CustomerID,
+    FIrstName,
+    lastname,
+    Email,
+    Phone,
+    Address,
+    City,
+    State,
+    ZipCode,
+    Updated_at,
+    CONCAT(FirstName, ' ', LastName) AS CustomerName,
+    current_timestamp() as last_update
+FROM SLEEKMART_OMS.l1_landing.CUSTOMERS
+  );
+[0m00:06:10.030414 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m00:06:10.883100 [debug] [Thread-1 (]: SQL status: SUCCESS 1 in 0.853 seconds
+[0m00:06:10.901184 [debug] [Thread-1 (]: On model.sleekdatamart.customers_stg: Close
+[0m00:06:11.043608 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '72eff5d1-6e20-4ba5-afbb-19bb06a3a2c1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019488C13350>]}
+[0m00:06:11.044884 [info ] [Thread-1 (]: 1 of 1 OK created sql view model L2_PROCESSING.customers_stg ................... [[32mSUCCESS 1[0m in 1.10s]
+[0m00:06:11.046635 [debug] [Thread-1 (]: Finished running node model.sleekdatamart.customers_stg
+[0m00:06:11.049328 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m00:06:11.049807 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS' was properly closed.
+[0m00:06:11.050220 [debug] [MainThread]: Connection 'list_SLEEKMART_OMS_L2_PROCESSING' was properly closed.
+[0m00:06:11.050579 [debug] [MainThread]: Connection 'model.sleekdatamart.customers_stg' was properly closed.
+[0m00:06:11.051046 [info ] [MainThread]: 
+[0m00:06:11.053383 [info ] [MainThread]: Finished running 1 view model in 0 hours 0 minutes and 3.38 seconds (3.38s).
+[0m00:06:11.056672 [debug] [MainThread]: Command end result
+[0m00:06:11.079286 [info ] [MainThread]: 
+[0m00:06:11.080009 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m00:06:11.080657 [info ] [MainThread]: 
+[0m00:06:11.081279 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m00:06:11.082405 [debug] [MainThread]: Command `dbt run` succeeded at 00:06:11.082278 after 4.44 seconds
+[0m00:06:11.082777 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019488D34F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019488E7BD90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019488E7BC50>]}
+[0m00:06:11.083217 [debug] [MainThread]: Flushing usage events
+[0m19:34:08.098391 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211B6F7D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211B9950A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211B9950910>]}
+
+
+============================== 19:34:08.107054 | 7cff59a1-bf23-4143-8a1b-21e79d2d8edb ==============================
+[0m19:34:08.107054 [info ] [MainThread]: Running with dbt=1.8.0
+[0m19:34:08.108511 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\Rajesh\\Desktop\\My_dbt_project\\sleekdatamart\\sleekdatamart\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug --config-dir', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:34:08.152808 [info ] [MainThread]: To view your profiles.yml file, run:
+
+start C:\Users\Rajesh\.dbt
+[0m19:34:08.155500 [debug] [MainThread]: Command `dbt debug` succeeded at 19:34:08.155069 after 0.23 seconds
+[0m19:34:08.156124 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211B99D6B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211B9906D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000211B98F7350>]}
+[0m19:34:08.156589 [debug] [MainThread]: Flushing usage events
+[0m23:17:13.280455 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220A68DD2B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220A6533750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220A92D4A50>]}
+
+
+============================== 23:17:13.283746 | 9b87426f-5561-485e-908f-4730af23e4e0 ==============================
+[0m23:17:13.283746 [info ] [MainThread]: Running with dbt=1.8.0
+[0m23:17:13.284254 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'c:\\Users\\Rajesh\\Desktop\\My_dbt_project\\sleekdatamart\\sleekdatamart\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt ', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m23:17:13.360639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9b87426f-5561-485e-908f-4730af23e4e0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220A81BB950>]}
+[0m23:17:13.378841 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m23:17:13.380207 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m23:17:13.381407 [debug] [MainThread]: Command `cli deps` succeeded at 23:17:13.381263 after 0.20 seconds
+[0m23:17:13.381834 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220A92B7CE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220A95DA470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220A927BA50>]}
+[0m23:17:13.382093 [debug] [MainThread]: Flushing usage events

@@ -1,0 +1,155 @@
+[0m18:32:55.829988 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DCC1705010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DCC40DCA50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002DCC40DC910>]}
+
+
+============================== 18:32:55.835922 | 5d46d643-7e70-4c8c-a3bb-89423032c063 ==============================
+[0m18:32:55.835922 [info ] [MainThread]: Running with dbt=1.8.0
+[0m18:32:55.836837 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m18:37:45.433899 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000261FE32D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026180D40A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026180D40910>]}
+
+
+============================== 18:37:45.438308 | fced4c16-bc95-4015-af57-32b549b126cc ==============================
+[0m18:37:45.438308 [info ] [MainThread]: Running with dbt=1.8.0
+[0m18:37:45.438775 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt init', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:37:54.874331 [debug] [MainThread]: Starter project path: C:\Users\Rajesh\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m18:37:54.934182 [info ] [MainThread]: 
+Your new dbt project "sleekdatamart" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:37:54.937648 [info ] [MainThread]: Setting up your profile.
+[0m18:40:55.657432 [info ] [MainThread]: Profile sleekdatamart written to C:\Users\Rajesh\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:40:55.660112 [debug] [MainThread]: Command `dbt init` succeeded at 18:40:55.659828 after 190.33 seconds
+[0m18:40:55.660823 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026182CFF5C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026180F330B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026182D35590>]}
+[0m18:40:55.661522 [debug] [MainThread]: Flushing usage events
+[0m18:41:16.595486 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002289B61D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002289E000A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002289E000910>]}
+
+
+============================== 18:41:16.599689 | 9642c788-8aa0-49ac-9c6b-42d1a472a596 ==============================
+[0m18:41:16.599689 [info ] [MainThread]: Running with dbt=1.8.0
+[0m18:41:16.600561 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt debug --connection', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:41:16.622875 [info ] [MainThread]: dbt version: 1.8.0
+[0m18:41:16.623607 [info ] [MainThread]: python version: 3.13.1
+[0m18:41:16.624401 [info ] [MainThread]: python path: C:\Users\Rajesh\AppData\Local\Programs\Python\Python313\python.exe
+[0m18:41:16.625014 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m18:41:16.985047 [info ] [MainThread]: Using profiles dir at C:\Users\Rajesh\.dbt
+[0m18:41:16.985793 [info ] [MainThread]: Using profiles.yml file at C:\Users\Rajesh\.dbt\profiles.yml
+[0m18:41:16.986311 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Rajesh\Desktop\My_dbt_project\sleekdatamart\dbt_project.yml
+[0m18:41:16.987222 [info ] [MainThread]: adapter type: snowflake
+[0m18:41:16.987832 [info ] [MainThread]: adapter version: 1.8.4
+[0m18:41:16.988321 [info ] [MainThread]: Skipping steps before connection verification
+[0m18:41:16.988692 [info ] [MainThread]: Connection:
+[0m18:41:16.989139 [info ] [MainThread]:   account: teeqrux-ww21611
+[0m18:41:16.989593 [info ] [MainThread]:   user: BITECHLAKE
+[0m18:41:16.990011 [info ] [MainThread]:   database: SLEEKMART_OMS
+[0m18:41:16.990397 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m18:41:16.990999 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m18:41:16.992610 [info ] [MainThread]:   schema: L1_LANDING
+[0m18:41:16.993208 [info ] [MainThread]:   authenticator: None
+[0m18:41:16.993738 [info ] [MainThread]:   oauth_client_id: None
+[0m18:41:16.994239 [info ] [MainThread]:   query_tag: None
+[0m18:41:16.995331 [info ] [MainThread]:   client_session_keep_alive: False
+[0m18:41:16.995959 [info ] [MainThread]:   host: None
+[0m18:41:16.996794 [info ] [MainThread]:   port: None
+[0m18:41:16.999302 [info ] [MainThread]:   proxy_host: None
+[0m18:41:16.999817 [info ] [MainThread]:   proxy_port: None
+[0m18:41:17.000188 [info ] [MainThread]:   protocol: None
+[0m18:41:17.000548 [info ] [MainThread]:   connect_retries: 1
+[0m18:41:17.001127 [info ] [MainThread]:   connect_timeout: None
+[0m18:41:17.001696 [info ] [MainThread]:   retry_on_database_errors: False
+[0m18:41:17.002173 [info ] [MainThread]:   retry_all: False
+[0m18:41:17.002615 [info ] [MainThread]:   insecure_mode: False
+[0m18:41:17.003091 [info ] [MainThread]:   reuse_connections: None
+[0m18:41:17.004929 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m18:41:17.416097 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m18:41:17.417167 [debug] [MainThread]: Using snowflake connection "debug"
+[0m18:41:17.417644 [debug] [MainThread]: On debug: select 1 as id
+[0m18:41:17.418147 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:41:19.909664 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m18:41:19.910142 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m18:41:19.910456 [debug] [MainThread]: On debug: No close available on handle
+[0m18:41:19.910714 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m18:41:19.911435 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m18:41:19.911880 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Rajesh\Desktop\My_dbt_project\sleekdatamart\dbt_project.yml> not found
+
+[0m18:41:19.912413 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001 (08001): Failed to connect to DB: teeqrux-ww21611.snowflakecomputing.com:443. Incorrect username or password was specified.
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m18:41:19.913548 [debug] [MainThread]: Command `dbt debug` failed at 18:41:19.913454 after 3.45 seconds
+[0m18:41:19.913781 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:41:19.914016 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228A00116E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228A0277650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228A0180160>]}
+[0m18:41:19.914266 [debug] [MainThread]: Flushing usage events
+[0m18:42:27.084948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025B89E2D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025B8C810A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025B8C810910>]}
+
+
+============================== 18:42:27.087730 | 98ad71d0-1e9a-438c-a9e7-d0260effbaf7 ==============================
+[0m18:42:27.087730 [info ] [MainThread]: Running with dbt=1.8.0
+[0m18:42:27.088627 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Rajesh\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug --connection', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m18:42:27.099635 [info ] [MainThread]: dbt version: 1.8.0
+[0m18:42:27.100338 [info ] [MainThread]: python version: 3.13.1
+[0m18:42:27.100910 [info ] [MainThread]: python path: C:\Users\Rajesh\AppData\Local\Programs\Python\Python313\python.exe
+[0m18:42:27.101386 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m18:42:27.347998 [info ] [MainThread]: Using profiles dir at C:\Users\Rajesh\.dbt
+[0m18:42:27.348810 [info ] [MainThread]: Using profiles.yml file at C:\Users\Rajesh\.dbt\profiles.yml
+[0m18:42:27.349454 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Rajesh\Desktop\My_dbt_project\sleekdatamart\dbt_project.yml
+[0m18:42:27.350449 [info ] [MainThread]: adapter type: snowflake
+[0m18:42:27.351180 [info ] [MainThread]: adapter version: 1.8.4
+[0m18:42:27.351836 [info ] [MainThread]: Skipping steps before connection verification
+[0m18:42:27.352487 [info ] [MainThread]: Connection:
+[0m18:42:27.353277 [info ] [MainThread]:   account: teeqrux-ww21611
+[0m18:42:27.353998 [info ] [MainThread]:   user: BITECHLAKE
+[0m18:42:27.354808 [info ] [MainThread]:   database: SLEEKMART_OMS
+[0m18:42:27.355567 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m18:42:27.356173 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m18:42:27.356895 [info ] [MainThread]:   schema: L1_LANDING
+[0m18:42:27.358051 [info ] [MainThread]:   authenticator: None
+[0m18:42:27.359850 [info ] [MainThread]:   oauth_client_id: None
+[0m18:42:27.361518 [info ] [MainThread]:   query_tag: None
+[0m18:42:27.363136 [info ] [MainThread]:   client_session_keep_alive: False
+[0m18:42:27.364045 [info ] [MainThread]:   host: None
+[0m18:42:27.364683 [info ] [MainThread]:   port: None
+[0m18:42:27.365261 [info ] [MainThread]:   proxy_host: None
+[0m18:42:27.365851 [info ] [MainThread]:   proxy_port: None
+[0m18:42:27.366485 [info ] [MainThread]:   protocol: None
+[0m18:42:27.367086 [info ] [MainThread]:   connect_retries: 1
+[0m18:42:27.367666 [info ] [MainThread]:   connect_timeout: None
+[0m18:42:27.368593 [info ] [MainThread]:   retry_on_database_errors: False
+[0m18:42:27.369646 [info ] [MainThread]:   retry_all: False
+[0m18:42:27.370302 [info ] [MainThread]:   insecure_mode: False
+[0m18:42:27.370959 [info ] [MainThread]:   reuse_connections: None
+[0m18:42:27.371768 [info ] [MainThread]: Registered adapter: snowflake=1.8.4
+[0m18:42:27.540917 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m18:42:27.541454 [debug] [MainThread]: Using snowflake connection "debug"
+[0m18:42:27.541699 [debug] [MainThread]: On debug: select 1 as id
+[0m18:42:27.541899 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:42:28.516694 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.975 seconds
+[0m18:42:28.519014 [debug] [MainThread]: On debug: Close
+[0m18:42:28.618149 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:42:28.619603 [info ] [MainThread]: [31m1 check failed:[0m
+[0m18:42:28.620599 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Rajesh\Desktop\My_dbt_project\sleekdatamart\dbt_project.yml> not found
+
+[0m18:42:28.622282 [debug] [MainThread]: Command `dbt debug` failed at 18:42:28.622090 after 1.66 seconds
+[0m18:42:28.622756 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:42:28.623396 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025B8E840FC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025B8EA87890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025B8E7929C0>]}
+[0m18:42:28.624110 [debug] [MainThread]: Flushing usage events

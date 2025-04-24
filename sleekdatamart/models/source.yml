@@ -1,0 +1,20 @@
+sources:
+  - name: l1_landing
+    description: This is the raw layer
+    tables:
+      - name: Dates
+      - name: CUSTOMERS
+      - name: Employees
+      - name: Stores
+      - name: Suppliers
+      - name: Products
+      - name: Orders
+      - name: OrderItems
+  - name: l2_processing
+    description: This is an intermidiate layer
+    tables:
+      - name: orders_stg
+      - name: orderitems_stg 
+      - name: customers_stg
+      - name: customerrevenue
+      - name: orders_fact
