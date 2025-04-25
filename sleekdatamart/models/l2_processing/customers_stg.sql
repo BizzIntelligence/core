@@ -7,7 +7,7 @@ SELECT
     Phone,
     Address,
     City,
-    State country_state,
+    State,
     ZipCode,
     Updated_at,
     CONCAT(FirstName, ' ', LastName) AS CustomerName,
